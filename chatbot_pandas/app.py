@@ -7,6 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from langchain_community.embeddings import PremAIEmbeddings
 from config import PREMAI_API_KEY
+import create_embeddings
 
 # Imposta la chiave API come variabile d'ambiente
 os.environ["PREMAI_API_KEY"] = PREMAI_API_KEY
